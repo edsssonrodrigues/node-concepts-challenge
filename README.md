@@ -31,12 +31,12 @@ Rotas para cada ação/recurso:
 - Na rota **POST /repositories** (criar um novo repositório), os dados para a criação deste serão passados no Body Request (corpo da requisição), via JSON, da seguinte forma:
 ```json
 {
-	"title": "ReactJS",
-	"url": "https://github.com/reactjs",
-	"techs":[
-		"Javascript",
-		"ES6+"
-	]
+    "title": "ReactJS",
+    "url": "https://github.com/reactjs",
+    "techs":[
+        "Javascript",
+	"ES6+"
+    ]
 }
 ```
 - Na rota **PUT /repositories/:id** (alterar um determinado repositório), **:id** deve ser substituído pelo identificador de um dado repositório. Após isso, os dados devem ser passados no corpo da requisição, assim como na rota de criação de um novo repositório.
@@ -46,14 +46,14 @@ Rotas para cada ação/recurso:
 - Já a rota **POST /repositories/:id/like** (curtir um determinado repositório), **:id** também deve ser substituído pelo identificador de um dado repositório, assim como na edição e deleção. Esta rota consiste em dar um like (curtida) em um dado repositório, então todas as vezes em que chamada, incrementa o número de likes:
 ```json
 {
-  "id": "1c466d8ge-637d-738f-9a41-8392fb9cd28c",
-	"title": "ReactJS",
-	"url": "https://github.com/reactjs",
-	"techs":[
-		"Javascript",
-		"ES6+"
-	],
-  "likes": 1
+    "id": "1c466d8ge-637d-738f-9a41-8392fb9cd28c",
+    "title": "ReactJS",
+    "url": "https://github.com/reactjs",
+    "techs":[
+        "Javascript",
+	"ES6+"
+    ],
+    "likes": 1
 }
 ```
 
