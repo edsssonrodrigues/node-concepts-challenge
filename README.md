@@ -91,7 +91,7 @@ yarn dev
 
 É esperado um retorno semelhante a este no seu terminal:
 
-![API em execução](./public_img/api.png)
+![API em execução](./public_img/api.PNG)
 
 
 
